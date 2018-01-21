@@ -10,3 +10,11 @@ script:
 
 lint:
   - make lint
+
+after_success:
+  - make docker_build
+
+language: python
+services:
+  - docker
+  
