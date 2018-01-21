@@ -7,4 +7,6 @@ install:
 
 script:
   - make test
-  
+
+lint:
+  - make lint
