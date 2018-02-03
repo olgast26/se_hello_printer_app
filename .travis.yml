@@ -13,8 +13,8 @@ lint:
 
 after_success:
   - make docker_build
+  - make docker_push
 
 language: python
 services:
   - docker
-  
