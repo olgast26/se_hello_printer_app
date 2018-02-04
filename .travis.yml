@@ -13,4 +13,4 @@ script:
 deploy:
   provider: heroku
   aapp: floating-mountain-66927
-  api_key: ${HEROKU_API_KEY}
+  api_key: 8074099b-4548-482c-aac7-85a31a08cefd
