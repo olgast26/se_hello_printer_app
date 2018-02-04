@@ -12,5 +12,5 @@ script:
   - make docker_push
 deploy:
   provider: heroku
-  aapp: floating-mountain-66927
+  app: floating-mountain-66927
   api_key: ${HEROKU_API_KEY}
