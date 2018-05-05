@@ -1,6 +1,5 @@
 .PHONY: test
 
-target test-api
 
 deps:
 	pip install -r requirements.txt;
